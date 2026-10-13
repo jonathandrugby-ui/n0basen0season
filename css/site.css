@@ -1,0 +1,17 @@
+/* Page level rules for the No Base. No Season. site. Carried over from the design's per page <style> blocks. */
+body{margin:0;background:var(--bg-page);color:var(--text-body)}
+a{color:var(--link)}
+a:hover{color:var(--link-hover)}
+.t-body,.t-body-l,.gl-card,.gl-card__desc,.gl-quote,.gl-sh__lead,.gl-row__note,.gl-page{color:var(--bone-300)}
+.gl-row__time{white-space:nowrap}
+/* Wider time column so "6 PM to 7:30 PM" fits on one line (Home schedule). */
+@media(min-width:768px){.gl-row{grid-template-columns:120px 190px minmax(0,1fr) auto auto}}
+
+/* Anchor targets clear the sticky nav. */
+.anchor{scroll-margin-top:72px}
+
+/* Mobile menu panel: rendered in the HTML, shown by js/site.js. */
+.gl-nav__menu[hidden]{display:none}
+.gl-nav__toggle .gl-icon--close{display:none}
+.gl-nav__toggle[aria-expanded="true"] .gl-icon--open{display:none}
+.gl-nav__toggle[aria-expanded="true"] .gl-icon--close{display:inline-block}
