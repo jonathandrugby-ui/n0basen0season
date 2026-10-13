@@ -23,3 +23,8 @@ a:hover{color:var(--link-hover)}
 .gl-nav__toggle .gl-icon--close{display:none}
 .gl-nav__toggle[aria-expanded="true"] .gl-icon--open{display:none}
 .gl-nav__toggle[aria-expanded="true"] .gl-icon--close{display:inline-block}
+
+/* Skip link: hidden until focused from the keyboard. */
+.skip-link{position:absolute;left:var(--sp-2);top:-100px;z-index:calc(var(--z-overlay) + 1);padding:var(--sp-1) var(--sp-2);background:var(--accent);color:var(--text-on-accent);font-family:var(--font-label);font-weight:var(--weight-bold);letter-spacing:var(--tracking-label);text-transform:uppercase;text-decoration:none}
+.skip-link:focus{top:var(--sp-1);color:var(--text-on-accent)}
+#main:focus{outline:none}

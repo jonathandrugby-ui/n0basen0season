@@ -1,12 +1,12 @@
-/* Goliath Design System (d1de672b), concatenated from _ds/. Do not edit; page tweaks live in site.css. */
+/* Goliath Design System (d1de672b), concatenated from _ds/. Only change: @font-face lists WOFF2 before the original TTF. Page tweaks live in site.css. */
 /* Webfonts. Open licence (OFL) binaries copied from the Google Fonts repository into /assets/fonts.
    Display: Anton (single weight). Body: Barlow 400/500/600. Labels and buttons: Barlow Condensed 600/700. */
-@font-face{font-family:"Anton";font-style:normal;font-weight:400;font-display:swap;src:url("../assets/fonts/Anton-Regular.ttf") format("truetype")}
-@font-face{font-family:"Barlow";font-style:normal;font-weight:400;font-display:swap;src:url("../assets/fonts/Barlow-Regular.ttf") format("truetype")}
-@font-face{font-family:"Barlow";font-style:normal;font-weight:500;font-display:swap;src:url("../assets/fonts/Barlow-Medium.ttf") format("truetype")}
-@font-face{font-family:"Barlow";font-style:normal;font-weight:600;font-display:swap;src:url("../assets/fonts/Barlow-SemiBold.ttf") format("truetype")}
-@font-face{font-family:"Barlow Condensed";font-style:normal;font-weight:600;font-display:swap;src:url("../assets/fonts/BarlowCondensed-SemiBold.ttf") format("truetype")}
-@font-face{font-family:"Barlow Condensed";font-style:normal;font-weight:700;font-display:swap;src:url("../assets/fonts/BarlowCondensed-Bold.ttf") format("truetype")}
+@font-face{font-family:"Anton";font-style:normal;font-weight:400;font-display:swap;src:url("../assets/fonts/Anton-Regular.woff2") format("woff2"),url("../assets/fonts/Anton-Regular.ttf") format("truetype")}
+@font-face{font-family:"Barlow";font-style:normal;font-weight:400;font-display:swap;src:url("../assets/fonts/Barlow-Regular.woff2") format("woff2"),url("../assets/fonts/Barlow-Regular.ttf") format("truetype")}
+@font-face{font-family:"Barlow";font-style:normal;font-weight:500;font-display:swap;src:url("../assets/fonts/Barlow-Medium.woff2") format("woff2"),url("../assets/fonts/Barlow-Medium.ttf") format("truetype")}
+@font-face{font-family:"Barlow";font-style:normal;font-weight:600;font-display:swap;src:url("../assets/fonts/Barlow-SemiBold.woff2") format("woff2"),url("../assets/fonts/Barlow-SemiBold.ttf") format("truetype")}
+@font-face{font-family:"Barlow Condensed";font-style:normal;font-weight:600;font-display:swap;src:url("../assets/fonts/BarlowCondensed-SemiBold.woff2") format("woff2"),url("../assets/fonts/BarlowCondensed-SemiBold.ttf") format("truetype")}
+@font-face{font-family:"Barlow Condensed";font-style:normal;font-weight:700;font-display:swap;src:url("../assets/fonts/BarlowCondensed-Bold.woff2") format("woff2"),url("../assets/fonts/BarlowCondensed-Bold.ttf") format("truetype")}
 :root{
 /* Base palette. Charcoal is the ground, Bone is the ink, Steel is structure, Yellow is the single accent, matched to the gym’s own campaign material and badge. */
 --charcoal-900:#151515;

@@ -1,0 +1,5 @@
+# All search engines and AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended and others) may crawl everything.
+User-agent: *
+Allow: /
+
+Sitemap: https://n0basen0season.netlify.app/sitemap.xml
