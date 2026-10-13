@@ -7,6 +7,14 @@ a:hover{color:var(--link-hover)}
 /* Wider time column so "6 PM to 7:30 PM" fits on one line (Home schedule). */
 @media(min-width:768px){.gl-row{grid-template-columns:120px 190px minmax(0,1fr) auto auto}}
 
+/* Wordmark reads "Strong & Courageous" beside the Goliath badge: keep it on one line,
+   scale it down on phones, and drop the tagline where the nav links need the room. */
+.gl-nav__word{white-space:nowrap}
+@media(max-width:767px){.gl-nav__word{font-size:clamp(18px,5.4vw,26px)}}
+@media(min-width:768px) and (max-width:1279px){.gl-nav__sub{display:none}}
+/* Brand, five links and the CTA need about 930px, so tablets keep the menu button until 1024. */
+@media(min-width:768px) and (max-width:1023px){.gl-nav__links{display:none}.gl-nav__toggle{display:inline-flex}.gl-nav__menu{display:flex}.gl-nav__menu[hidden]{display:none}.gl-nav__menu{padding-inline:var(--gutter-md)}}
+
 /* Anchor targets clear the sticky nav. */
 .anchor{scroll-margin-top:72px}
 
