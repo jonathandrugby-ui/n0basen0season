@@ -35,3 +35,8 @@ a:hover{color:var(--link-hover)}
 .gl-quote blockquote{margin:0}
 .gl-quote__meta{flex-direction:column;align-items:flex-start;gap:4px;line-height:1.3}
 .gl-quote--display .gl-quote__text{max-width:40ch}
+
+/* Photo grids: Home is 2 across on phones and 4 from 768px; the Sign Up strip is always 3 across. */
+.photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.photo-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+@media(min-width:768px){.photo-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.photo-row{gap:16px}}
