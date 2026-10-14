@@ -1,7 +1,14 @@
-# Plain http on the netlify.app address goes to https.
+# The old netlify.app address (http and https) moves permanently to the custom domain.
+# Netlify already sends http and www on strong-courageous.co.za to https://strong-courageous.co.za.
+[[redirects]]
+  from = "https://n0basen0season.netlify.app/*"
+  to = "https://strong-courageous.co.za/:splat"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "http://n0basen0season.netlify.app/*"
-  to = "https://n0basen0season.netlify.app/:splat"
+  to = "https://strong-courageous.co.za/:splat"
   status = 301
   force = true
 

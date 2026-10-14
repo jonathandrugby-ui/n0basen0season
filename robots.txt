@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://n0basen0season.netlify.app/sitemap.xml
+Sitemap: https://strong-courageous.co.za/sitemap.xml
