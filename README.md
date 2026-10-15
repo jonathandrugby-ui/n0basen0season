@@ -12,5 +12,5 @@ Static site for the Strong & Courageous Rugby teen block at Goliath Fit for Purp
 
 ## Before launch
 
-- **Terms.** `terms.html` still says Draft. Remove the Draft badge and its note once the terms are confirmed.
+- **Terms.** When you change the terms, update the "Last updated" date in `terms.html` and its `dateModified` in the structured data.
 - **Links that appear on every page.** The Google Form (`https://forms.gle/XaMLDP9zuUtkLmPWA`), WhatsApp (`27837056605`) and the Maps pin are written into each page. To change one, find and replace it across all three files.
