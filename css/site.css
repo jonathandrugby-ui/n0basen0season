@@ -42,3 +42,16 @@ a:hover{color:var(--link-hover)}
 @media(min-width:768px){.photo-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.photo-row{gap:16px}}
 .photo-pair{display:grid;grid-template-columns:minmax(0,1fr);gap:16px}
 @media(min-width:768px){.photo-pair{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Home hero slideshow (js/hero.js). Crossfade plus a slow Ken Burns move; the overlay and grain sit above. */
+.hero-slide{opacity:0;transition:opacity 1.6s ease-in-out;will-change:opacity,transform;transform-origin:50% 50%}
+.hero-slide.is-active{opacity:1}
+.hero-slide.kb-1{animation:kb-1 9s linear forwards}
+.hero-slide.kb-2{animation:kb-2 9s linear forwards}
+.hero-slide.kb-3{animation:kb-3 9s linear forwards}
+.hero-slide.kb-4{animation:kb-4 9s linear forwards}
+@keyframes kb-1{from{transform:scale(1.04) translate(0,0)}to{transform:scale(1.16) translate(-2%,-1.5%)}}
+@keyframes kb-2{from{transform:scale(1.16) translate(2%,1%)}to{transform:scale(1.04) translate(0,0)}}
+@keyframes kb-3{from{transform:scale(1.04) translate(1.5%,-1%)}to{transform:scale(1.15) translate(-1%,1.5%)}}
+@keyframes kb-4{from{transform:scale(1.15) translate(-1.5%,1%)}to{transform:scale(1.05) translate(1%,-1%)}}
+@media (prefers-reduced-motion: reduce){.hero-slide{transition:none;animation:none!important}}
