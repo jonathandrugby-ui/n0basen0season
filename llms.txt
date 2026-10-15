@@ -7,7 +7,7 @@
 - Who: rugby players aged 13 to 19. Any position, club, school or level. No gym experience needed.
 - When: Thursdays 6 PM to 7:30 PM (gym session) and Saturdays 8 AM to 10 AM (gym and rugby basics), 5 Nov to 5 Dec 2026.
 - Where: Goliath Fit for Purpose, Unit 16B, Fish Eagle Park, Kommetjie Road, Cape Town.
-- Cost: R1 500 for all 10 sessions, paid once via PayFast after the sign up form.
+- Cost: R1 500 for all 10 sessions, paid once by card via Yoco (https://pay.yoco.com/Strong-Courageous) after the sign up form, with the player's name as the reference.
 - Group size: 15 players, one head coach.
 - Head coach: Jonathan Raphael. World Rugby Level 2, BokSmart accredited, B.Ed, First Aid and CPR. 20 years of coaching in South Africa and the Netherlands, including Western Province Rugby Academy (High Performance Specialist Coach for scrum, defence and breakdown, and strength, conditioning and analysis coach, 2014 to 2017) and Director of Sport and Head of Rugby at Sun Valley Primary School (2018 to 2022).
 - Gym content: squat, hinge, press and pull from an empty bar; trunk and neck strength for contact; sprint mechanics, change of direction and landing; rugby specific conditioning.
@@ -17,5 +17,5 @@
 ## Pages
 
 - [Home](https://strong-courageous.co.za/): programme, 5 week outline, schedule, coach, testimonials from players and coaches (including Anton Moolman, former WP Rugby Academy Director), parent FAQs, contact.
-- [Sign Up](https://strong-courageous.co.za/sign-up): the 3 steps (form, PayFast, WhatsApp confirmation) and what the form asks.
+- [Sign Up](https://strong-courageous.co.za/sign-up): the 3 steps (form, Yoco payment, WhatsApp confirmation) and what the form asks.
 - [Terms and Commitment](https://strong-courageous.co.za/terms): dates, cost, refunds, attendance, safety and indemnity, conduct, photos, personal details.
