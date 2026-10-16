@@ -15,7 +15,7 @@
   .frame{background:#FFFFFF;border:2px solid #CFCAC0;padding:24px;margin-top:16px}
   .frame.dark{background:#1E1E1E;border-color:#33373B}
   button{margin-top:16px;min-height:48px;padding:0 24px;background:#F2C21B;color:#151515;border:0;font:bold 16px 'Arial Narrow',Arial,sans-serif;letter-spacing:1.6px;text-transform:uppercase;cursor:pointer}
-  #done{margin-left:12px;font-size:14px;color:#3A4F31}
+  .done{margin-left:12px;font-size:14px;color:#3A4F31}
 </style>
 </head>
 <body>
@@ -57,7 +57,24 @@
 </table>
 <!-- SIGNATURE END -->
   </div>
-  <button type="button" id="copy">Copy signature</button><span id="done"></span>
+  <button type="button" class="copy" data-target="sig" data-done="done">Copy signature</button><span id="done" class="done"></span>
+
+  <h2 style="margin-top:48px;font:normal 28px/1 Impact,'Arial Black',Arial,sans-serif;letter-spacing:0">iPhone version</h2>
+  <p>Text only, for iPhone Mail. Open this page in Safari on the iPhone, press Copy iPhone signature, then follow the iPhone steps below.</p>
+  <div class="frame">
+<!-- IPHONE SIGNATURE START -->
+<div id="sig-iphone" style="font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:20px;color:#151515;">
+<div style="font-weight:bold;font-size:16px;line-height:22px;letter-spacing:0.5px;text-transform:uppercase;color:#151515;">JONATHAN RAPHAEL</div>
+<div style="color:#3A3F44;">Head Coach, Strong &amp; Courageous Rugby</div>
+<div style="font-size:12px;color:#6B7177;">World Rugby Level 2. BokSmart accredited.</div>
+<div style="margin-top:8px;"><a href="https://wa.me/27837056605" style="color:#151515;text-decoration:none;">WhatsApp 083 705 6605</a></div>
+<div><a href="mailto:jonathan@1vnine.com" style="color:#151515;text-decoration:none;">jonathan@1vnine.com</a></div>
+<div><a href="https://strong-courageous.co.za" style="color:#A88300;text-decoration:none;font-weight:bold;">strong-courageous.co.za</a></div>
+<div style="margin-top:8px;font-size:12px;font-weight:bold;letter-spacing:0.5px;text-transform:uppercase;"><a href="https://strong-courageous.co.za/sign-up" style="color:#A88300;text-decoration:none;">No Base. No Season. 5 Nov to 5 Dec. Grab your spot</a></div>
+</div>
+<!-- IPHONE SIGNATURE END -->
+  </div>
+  <button type="button" class="copy" data-target="sig-iphone" data-done="done-iphone">Copy iPhone signature</button><span id="done-iphone" class="done"></span>
 
   <h2>Gmail</h2>
   <ol>
@@ -74,8 +91,10 @@
 
   <h2>iPhone Mail</h2>
   <ol>
-    <li>Open this page on the iPhone, press Copy signature.</li>
-    <li>Settings &gt; Apps &gt; Mail &gt; Signature, paste, then shake the phone and choose Undo Change Attributes if the styling drops out.</li>
+    <li>Open this page in Safari on the iPhone and press Copy iPhone signature.</li>
+    <li>Settings &gt; Apps &gt; Mail &gt; Signature. With more than one account, tap Per Account and use the jonathan@1vnine.com box.</li>
+    <li>Delete what is there, press and hold in the box and tap Paste.</li>
+    <li>Straight away, shake the iPhone and tap Undo Change Attributes. That brings back the bold, colours and links.</li>
   </ol>
 
   <h2>Outlook</h2>

@@ -1,9 +1,10 @@
-// Copy button for the email signature page.
-document.getElementById('copy').addEventListener('click', function () {
-    var sig = document.getElementById('sig');
+// Copy buttons for the email signature page. Each button copies the element named in data-target.
+document.querySelectorAll('button.copy').forEach(function (btn) {
+  btn.addEventListener('click', function () {
+    var sig = document.getElementById(btn.getAttribute('data-target'));
+    var done = document.getElementById(btn.getAttribute('data-done'));
     var html = sig.outerHTML;
     var text = sig.innerText;
-    var done = document.getElementById('done');
     function fallback() {
       var r = document.createRange(); r.selectNode(sig);
       var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
@@ -17,3 +18,4 @@ document.getElementById('copy').addEventListener('click', function () {
       })]).then(function () { done.textContent = 'Copied. Now paste it into your signature settings.'; }, fallback);
     } else { fallback(); }
   });
+});
