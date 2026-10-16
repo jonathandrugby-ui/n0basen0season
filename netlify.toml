@@ -36,3 +36,10 @@
   for = "/assets/brand/*"
   [headers.values]
     Cache-Control = "public, max-age=2592000"
+
+# Calendar invites (linked from the site and the sign up confirmation email).
+[[headers]]
+  for = "/calendar/*"
+  [headers.values]
+    Content-Type = "text/calendar; charset=utf-8"
+    Cache-Control = "public, max-age=3600"

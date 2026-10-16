@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Strong and Courageous Rugby//No Base. No Season.//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:No Base. No Season.
+BEGIN:VTIMEZONE
+TZID:Africa/Johannesburg
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0200
+TZNAME:SAST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:nbns-2026-saturdays@strong-courageous.co.za
+DTSTAMP:20261016T090000Z
+DTSTART;TZID=Africa/Johannesburg:20261107T080000
+DTEND;TZID=Africa/Johannesburg:20261107T100000
+RRULE:FREQ=WEEKLY;BYDAY=SA;COUNT=5
+SUMMARY:No Base. No Season. Gym and rugby basics
+LOCATION:Goliath Fit for Purpose\, Unit 16B\, Fish Eagle Park\, Kommetjie R
+ oad\, Cape Town
+DESCRIPTION:Saturday gym and rugby basics. Lift first\, then the ball. Trai
+ ning shoes only unless the coach asks for boots. Arrive 10 minutes early.
+URL:https://strong-courageous.co.za
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:No Base. No Season. in 2 hours
+END:VALARM
+END:VEVENT
+END:VCALENDAR

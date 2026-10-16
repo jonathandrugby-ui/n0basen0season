@@ -7,6 +7,7 @@ Static site for the Strong & Courageous Rugby teen block at Goliath Fit for Purp
 - `css/site.css`: page level rules. `js/site.js`: mobile menu. `js/hero.js`: Home hero slideshow (the photo list is the `data-slides` attribute on the hero; add or remove entries there).
 - `robots.txt`, `sitemap.xml`, `llms.txt`: crawl rules, page list and a plain text summary for AI assistants. Update `lastmod` in the sitemap and the facts in `llms.txt` when dates, price or pages change.
 - `netlify.toml`: http to https redirect, security headers and cache rules.
+- `calendar/`: the Thursday and Saturday session invites (.ics), linked from the schedule, Sign Up step 3 and the sign up confirmation email. Keep the file names stable so links in sent emails keep working.
 - Structured data (JSON-LD) sits in each page's `<head>`. On Home it describes the programme (dates, price, place), the coach and the FAQs, so keep it in step with the visible text.
 - Images are WebP in two or three sizes (`name-800.webp` etc.). Fonts are WOFF2 with the original TTF as fallback.
 
