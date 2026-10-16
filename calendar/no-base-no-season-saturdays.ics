@@ -4,6 +4,7 @@ PRODID:-//Strong and Courageous Rugby//No Base. No Season.//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:No Base. No Season.
+X-WR-TIMEZONE:Africa/Johannesburg
 BEGIN:VTIMEZONE
 TZID:Africa/Johannesburg
 BEGIN:STANDARD
@@ -14,16 +15,88 @@ TZNAME:SAST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:nbns-2026-saturdays@strong-courageous.co.za
+UID:nbns-2026-saturdays-week1@strong-courageous.co.za
 DTSTAMP:20261016T090000Z
 DTSTART;TZID=Africa/Johannesburg:20261107T080000
 DTEND;TZID=Africa/Johannesburg:20261107T100000
-RRULE:FREQ=WEEKLY;BYDAY=SA;COUNT=5
-SUMMARY:No Base. No Season. Gym and rugby basics
+SUMMARY:No Base. No Season. Gym and rugby basics (Week 1)
 LOCATION:Goliath Fit for Purpose\, Unit 16B\, Fish Eagle Park\, Kommetjie R
  oad\, Cape Town
-DESCRIPTION:Saturday gym and rugby basics. Lift first\, then the ball. Trai
- ning shoes only unless the coach asks for boots. Arrive 10 minutes early.
+DESCRIPTION:Week 1: Screen and foundations. Saturday gym and rugby basics. 
+ Lift first\, then the ball. Running or gym training shoes. Boots only when
+  the coach asks for them. Arrive 10 minutes early.
+URL:https://strong-courageous.co.za
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:No Base. No Season. in 2 hours
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nbns-2026-saturdays-week2@strong-courageous.co.za
+DTSTAMP:20261016T090000Z
+DTSTART;TZID=Africa/Johannesburg:20261114T080000
+DTEND;TZID=Africa/Johannesburg:20261114T100000
+SUMMARY:No Base. No Season. Gym and rugby basics (Week 2)
+LOCATION:Goliath Fit for Purpose\, Unit 16B\, Fish Eagle Park\, Kommetjie R
+ oad\, Cape Town
+DESCRIPTION:Week 2: Strength base. Saturday gym and rugby basics. Lift firs
+ t\, then the ball. Running or gym training shoes. Boots only when the coac
+ h asks for them. Arrive 10 minutes early.
+URL:https://strong-courageous.co.za
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:No Base. No Season. in 2 hours
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nbns-2026-saturdays-week3@strong-courageous.co.za
+DTSTAMP:20261016T090000Z
+DTSTART;TZID=Africa/Johannesburg:20261121T080000
+DTEND;TZID=Africa/Johannesburg:20261121T100000
+SUMMARY:No Base. No Season. Gym and rugby basics (Week 3)
+LOCATION:Goliath Fit for Purpose\, Unit 16B\, Fish Eagle Park\, Kommetjie R
+ oad\, Cape Town
+DESCRIPTION:Week 3: Power and contact. Saturday gym and rugby basics. Lift 
+ first\, then the ball. Running or gym training shoes. Boots only when the 
+ coach asks for them. Arrive 10 minutes early.
+URL:https://strong-courageous.co.za
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:No Base. No Season. in 2 hours
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nbns-2026-saturdays-week4@strong-courageous.co.za
+DTSTAMP:20261016T090000Z
+DTSTART;TZID=Africa/Johannesburg:20261128T080000
+DTEND;TZID=Africa/Johannesburg:20261128T100000
+SUMMARY:No Base. No Season. Gym and rugby basics (Week 4)
+LOCATION:Goliath Fit for Purpose\, Unit 16B\, Fish Eagle Park\, Kommetjie R
+ oad\, Cape Town
+DESCRIPTION:Week 4: Speed and conditioning. Saturday gym and rugby basics. 
+ Lift first\, then the ball. Running or gym training shoes. Boots only when
+  the coach asks for them. Arrive 10 minutes early.
+URL:https://strong-courageous.co.za
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:No Base. No Season. in 2 hours
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nbns-2026-saturdays-week5@strong-courageous.co.za
+DTSTAMP:20261016T090000Z
+DTSTART;TZID=Africa/Johannesburg:20261205T080000
+DTEND;TZID=Africa/Johannesburg:20261205T100000
+SUMMARY:No Base. No Season. Gym and rugby basics (Week 5)
+LOCATION:Goliath Fit for Purpose\, Unit 16B\, Fish Eagle Park\, Kommetjie R
+ oad\, Cape Town
+DESCRIPTION:Week 5: Test and carry it forward. Saturday gym and rugby basic
+ s. Lift first\, then the ball. Running or gym training shoes. Boots only w
+ hen the coach asks for them. Arrive 10 minutes early.
 URL:https://strong-courageous.co.za
 BEGIN:VALARM
 TRIGGER:-PT2H

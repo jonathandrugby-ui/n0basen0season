@@ -43,3 +43,10 @@
   [headers.values]
     Content-Type = "text/calendar; charset=utf-8"
     Cache-Control = "public, max-age=3600"
+
+# Welcome email source, fetched by the Apps Script sender. Not for search engines.
+[[headers]]
+  for = "/email/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    Cache-Control = "public, max-age=300"
