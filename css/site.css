@@ -61,3 +61,33 @@ a:hover{color:var(--link-hover)}
 .playlist__text{display:flex;flex-direction:column;gap:12px}
 .gl-card.playlist:hover{border-color:var(--border-subtle)}
 @media(min-width:768px){.playlist{grid-template-columns:minmax(0,1fr) minmax(0,1.6fr)}}
+
+/* Player and parent reviews (js/reviews.js) under the testimonials. */
+.reviews{display:flex;flex-direction:column;gap:24px;margin-top:32px;padding-top:48px;border-top:2px solid var(--border-subtle)}
+.reviews[hidden]{display:none}
+.reviews__head{display:flex;flex-direction:column;gap:12px}
+.reviews__summary{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:0;color:var(--text-primary)}
+.reviews__more{align-self:flex-start}
+.reviews__more[hidden]{display:none}
+.review-stars{display:flex;gap:2px;color:var(--accent)}
+.review-stars__off{color:var(--steel-700)}
+.review-form{padding:24px;gap:24px;max-width:760px}
+.gl-card.review-form:hover{border-color:var(--border-subtle)}
+.review-form__intro{display:flex;flex-direction:column;gap:12px}
+.review-form__row{display:grid;grid-template-columns:minmax(0,1fr);gap:24px}
+@media(min-width:768px){.review-form__row{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.review-form__hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.review-form__consent{display:flex;gap:12px;align-items:flex-start;color:var(--text-body);cursor:pointer}
+.review-form__consent input{width:20px;height:20px;margin:0;flex:none;accent-color:var(--accent)}
+.review-form__actions{display:flex;flex-wrap:wrap;align-items:center;gap:16px}
+.review-form__status{margin:0}
+.review-form__status.is-ok{color:var(--success)}
+.review-form__status.is-err{color:var(--error)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+/* Star rating input: radios in reverse order so hovering or picking a star lights it and the ones before it. */
+.star-input{border:0;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.star-input__stars{display:flex;flex-direction:row-reverse;justify-content:flex-end;gap:4px}
+.star-input input{position:absolute;opacity:0;width:1px;height:1px}
+.star-input label{cursor:pointer;color:var(--steel-500);display:inline-flex;padding:4px;min-width:44px;min-height:44px;align-items:center;justify-content:center;transition:color var(--duration-fast) var(--ease-mechanical)}
+.star-input__stars label:hover,.star-input__stars label:hover~label,.star-input input:checked~label{color:var(--accent)}
+.star-input input:focus-visible+label{outline:var(--border-w) solid var(--focus-ring);outline-offset:2px}
