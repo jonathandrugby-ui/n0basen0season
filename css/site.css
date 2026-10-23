@@ -55,3 +55,9 @@ a:hover{color:var(--link-hover)}
 @keyframes kb-3{from{transform:scale(1.04) translate(1.5%,-1%)}to{transform:scale(1.15) translate(-1%,1.5%)}}
 @keyframes kb-4{from{transform:scale(1.15) translate(-1.5%,1%)}to{transform:scale(1.05) translate(1%,-1%)}}
 @media (prefers-reduced-motion: reduce){.hero-slide{transition:none;animation:none!important}}
+
+/* Session playlist (Apple Music embed) in the schedule section: text beside the player from 768px, stacked below. */
+.playlist{display:grid;grid-template-columns:minmax(0,1fr);align-items:start}
+.playlist__text{display:flex;flex-direction:column;gap:12px}
+.gl-card.playlist:hover{border-color:var(--border-subtle)}
+@media(min-width:768px){.playlist{grid-template-columns:minmax(0,1fr) minmax(0,1.6fr)}}
