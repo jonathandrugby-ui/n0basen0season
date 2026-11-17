@@ -91,3 +91,16 @@ a:hover{color:var(--link-hover)}
 .star-input label{cursor:pointer;color:var(--steel-500);display:inline-flex;padding:4px;min-width:44px;min-height:44px;align-items:center;justify-content:center;transition:color var(--duration-fast) var(--ease-mechanical)}
 .star-input__stars label:hover,.star-input__stars label:hover~label,.star-input input:checked~label{color:var(--accent)}
 .star-input input:focus-visible+label{outline:var(--border-w) solid var(--focus-ring);outline-offset:2px}
+
+/* Part 2 page: session table, moved-date tags. */
+.plan-table-wrap{overflow-x:auto}
+.plan-table{width:100%;border-collapse:collapse;border-top:2px solid var(--border-subtle)}
+.plan-table th,.plan-table td{text-align:left;vertical-align:top;padding:16px 16px 16px 0;border-bottom:2px solid var(--border-subtle)}
+.plan-table thead th{font-family:var(--font-label);font-size:var(--text-label);font-weight:var(--weight-bold);letter-spacing:var(--tracking-label);text-transform:uppercase;color:var(--text-secondary)}
+.plan-table tbody th{font-family:var(--font-label);font-size:var(--text-small);font-weight:var(--weight-bold);letter-spacing:var(--tracking-label);text-transform:uppercase;color:var(--text-accent);white-space:nowrap;width:110px}
+.plan-table td{color:var(--text-primary);font-size:var(--text-body);line-height:1.6}
+.plan-session{display:inline-block;white-space:nowrap}
+.plan-moved{display:inline-block;margin:0 2px 0 4px;padding:0 6px;border:2px solid var(--border-default);border-radius:var(--radius-1);font-family:var(--font-label);font-size:12px;font-weight:var(--weight-bold);letter-spacing:var(--tracking-label);text-transform:uppercase;color:var(--text-secondary);line-height:20px;white-space:nowrap}
+/* Home teaser for Part 2. */
+.p2-teaser{display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between}
+.p2-teaser__text{display:flex;flex-direction:column;gap:10px;max-width:720px}
